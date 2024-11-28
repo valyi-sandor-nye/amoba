@@ -1,7 +1,7 @@
 package model;
 
 public class Table {
-    private Sign[][] board;
+    final private Sign[][] board;
 
     public Table(int size) {
         board = new Sign[size][size];
